@@ -1,0 +1,26 @@
+/*
+  "tabBar": {
+    "color": "red",
+    "selectedColor": "red",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/nav_icon/首页.png",
+        "iconPath": "images/nav_icon/首页.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/nav_icon/线性添加.png",
+        "iconPath": "images/nav_icon/线性添加.png",
+        "pagePath": "pages/login/login",
+        "text": "添加"
+      },
+      {
+        "selectedIconPath": "images/nav_icon/用户.png",
+        "iconPath": "images/nav_icon/用户.png",
+        "pagePath": "pages/login/login",
+        "text": "我的"
+      }
+    ]
+  },*/

@@ -1,0 +1,80 @@
+.bg_img{
+  width: 100%;
+  height:1200rpx;
+  position: relative;
+}
+.head_img{
+  display:block;
+  position: absolute;
+  z-index:20;
+  width:200rpx;
+  height:200rpx;
+  left: 50%;
+  transform: translateX(-50%);
+  top:5%;
+  border-radius:100rpx;
+}
+.content_information{
+  width:80%;
+  height:500rpx;
+  background:white;
+  position: absolute;
+  z-index:20;
+  left: 50%;
+  top:25%;
+  transform: translateX(-50%);
+  opacity: 0.5;
+}
+.information_block{
+  position: absolute;
+  top:15%;
+}
+.information_block > view{
+  margin-top: 50rpx;
+}
+.icon_image{
+  width:100rpx;
+  height:80rpx;
+}
+.button_login{
+  background-color: rgb(145, 120, 143);
+}
+.button_view{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  top:69%;
+}
+.information_view{
+  display: flex;
+  width:100%;
+  /* left:50%;
+  transform: translateX(-50%); */
+  /* flex-direction: row; */
+  /* justify-content: space-around; */
+}
+.information_view > image{
+  display: block;
+  margin-left:10%;
+  margin-right: 10%;
+  /* vertical-align: top; */
+  margin-top:-10rpx;
+}
+.information_view >text{
+  text-align: center;
+}
+.information_view > input{
+  display: block;
+  width:400rpx;
+  border: solid  rgb(158, 154, 154);
+  border-radius: 20rpx;
+}
+.register_view{
+  position: absolute;
+  left:10%;
+  /* transform: translateX(-50%); */
+  top:90%;
+}
+/* .register_view > image {
+  icon_image
+} */

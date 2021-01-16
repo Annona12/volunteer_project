@@ -1,0 +1,20 @@
+<view class="page-body" >
+  <image class="bg_img" src="../../images/bg/bg.jpg"></image>
+    <image  class="head_img" src="../../images/bg/head.jpg"></image>
+  <view class="content_information" id="content_information">
+    <view class="information_block">
+      <view class="information_view">
+        <image class="icon_image" src="../../images/bg/user.png"></image>
+        <!-- <text></text> -->
+        <input type="text" placeholder="account" />
+      </view>
+    <view class="information_view">
+      <image class="icon_image" src="../../images/bg/lock_close.png"></image>
+      <!-- <text>password:</text>  -->
+      <input password type="text" placeholder="password" />
+    </view>
+    </view>
+  </view>
+  <view class="button_view"><button class="button_login">登陆</button></view>
+ <view class="register_view"><image class="icon_image" src="../../images/bg/register.png"></image>注册账号</view>
+</view>
